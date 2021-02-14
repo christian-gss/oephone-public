@@ -732,14 +732,18 @@ a:hover {
   transition: opacity 0.4s;
 }
 
-.content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+.main-panel {
+  position: relative;
+  -webkit-transition: 0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1);
+  transition: 0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1);
+  min-height: 100vh;
 }
 
-.content__title {
-  color: #404040;
+@media only screen and (min-width: 768px) {
+  .main-panel {
+    width: calc(100% - 260px);
+    float: right;
+  }
 }
 
 .font {
@@ -755,6 +759,17 @@ a:hover {
 }
 
 /* Pages, custom/unique page styles*/
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 260px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .sidebar {
     display: none;
