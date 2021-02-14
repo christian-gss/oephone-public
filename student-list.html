@@ -16,121 +16,123 @@
        <div class="sidebar">
            <img src="./dist/images/sidebar.png" alt="">
        </div>
-       <div class="content px-4 py-md-4 has-table">
-            <h2 class="font--alt display-3 font-weight-medium content__title">Welcome, test</h2>
-            <div class="dashboard__menu d-flex mt-3">
-                <div class="card">
-                    <img src="./dist/images/dash-menu1.png" alt="" class="dashboard__menuImg">
-                    <p>주 5회 60분5일 과정</p>
+       <div class="content is-many">
+            <div class="welcome">Welcome, test</div>
+            <div class="px-4 py-md-4 mt-sm-4 mt-md-0">
+                <div class="dashboard__menu d-flex ">
+                    <div class="card">
+                        <img src="./dist/images/dash-menu1.png" alt="" class="dashboard__menuImg">
+                        <p>주 5회 60분5일 과정</p>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./dist/images/dash-menu2.png" alt="" class="dashboard__menuImg">
+                        <ul>
+                            <li>
+                                <span>시작일</span>   
+                                <span>2021-02-08</span>
+                            </li>
+                            <li>
+                                <span>종료일</span>   
+                                <span>2021-02-12</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="./dist/images/dash-menu3.png" alt="" class="dashboard__menuImg">
+                        <div>
+                            <span>수업시간 </span>   
+                            <span>16:00 - 17:00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./dist/images/dash-menu4.png" alt="" class="dashboard__menuImg">
+                        <div>
+                            <span>선생님</span>   
+                            <span>16:khate</span>
+                        </div>
+                    </div>
                     
-                </div>
-                <div class="card">
-                    <img src="./dist/images/dash-menu2.png" alt="" class="dashboard__menuImg">
-                    <ul>
-                        <li>
-                            <span>시작일</span>   
-                            <span>2021-02-08</span>
-                        </li>
-                        <li>
-                            <span>종료일</span>   
-                            <span>2021-02-12</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="./dist/images/dash-menu3.png" alt="" class="dashboard__menuImg">
-                    <div>
-                        <span>수업시간 </span>   
-                        <span>16:00 - 17:00</span>
+                    <div class="card">
+                        <div>
+                            <span>교재</span>   
+                            <span>Sample</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <span>수업레벨 </span>   
+                            <span>Level 5 Upper beginner</span>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="./dist/images/dash-menu4.png" alt="" class="dashboard__menuImg">
-                    <div>
-                        <span>선생님</span>   
-                        <span>16:khate</span>
-                    </div>
+                <div class="card mt-4 table__wrapper">
+                    <table id="example" class="table table-borderless table--student" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>데이트</th>
+                                <th>시각</th>
+                                <th>레벨테스트 강사</th>
+                                <th>출석</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2021-02-08</td>
+                                <td>16:00 - 17:00</td>
+                                <td>khate</td>
+                                <td>Present</td>
+                                <td>
+                                    <a href="#" type="button" class="btn table__btn">View</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2021-02-08</td>
+                                <td>16:00 - 17:00</td>
+                                <td>khate</td>
+                                <td>Present</td>
+                                <td>
+                                    <a href="#" type="button" class="btn table__btn">View</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>2021-02-08</td>
+                                <td>16:00 - 17:00</td>
+                                <td>khate</td>
+                                <td>Present</td>
+                                <td>
+                                    <a href="#" type="button" class="btn table__btn">View</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>2021-02-08</td>
+                                <td>16:00 - 17:00</td>
+                                <td>khate</td>
+                                <td>Present</td>
+                                <td>
+                                    <a href="#" type="button" class="btn table__btn">View</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>2021-02-08</td>
+                                <td>16:00 - 17:00</td>
+                                <td>khate</td>
+                                <td>Present</td>
+                                <td>
+                                    <a href="#" type="button" class="btn table__btn">View</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                
-                <div class="card">
-                    <div>
-                        <span>교재</span>   
-                        <span>Sample</span>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div>
-                        <span>수업레벨 </span>   
-                        <span>Level 5 Upper beginner</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card mt-4 table__wrapper">
-                <table id="example" class="table table-borderless table--student" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>데이트</th>
-                            <th>시각</th>
-                            <th>레벨테스트 강사</th>
-                            <th>출석</th>
-                            <th> </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>2021-02-08</td>
-                            <td>16:00 - 17:00</td>
-                            <td>khate</td>
-                            <td>Present</td>
-                            <td>
-                                <a href="#" type="button" class="btn table__btn">View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2021-02-08</td>
-                            <td>16:00 - 17:00</td>
-                            <td>khate</td>
-                            <td>Present</td>
-                            <td>
-                                <a href="#" type="button" class="btn table__btn">View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>2021-02-08</td>
-                            <td>16:00 - 17:00</td>
-                            <td>khate</td>
-                            <td>Present</td>
-                            <td>
-                                <a href="#" type="button" class="btn table__btn">View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>2021-02-08</td>
-                            <td>16:00 - 17:00</td>
-                            <td>khate</td>
-                            <td>Present</td>
-                            <td>
-                                <a href="#" type="button" class="btn table__btn">View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>2021-02-08</td>
-                            <td>16:00 - 17:00</td>
-                            <td>khate</td>
-                            <td>Present</td>
-                            <td>
-                                <a href="#" type="button" class="btn table__btn">View</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
        </div>
         

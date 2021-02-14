@@ -738,13 +738,6 @@ a:hover {
           flex: 1;
 }
 
-@media only screen and (max-width: 767px) {
-  .content {
-    padding: 2.66667% 0% ;
-    padding: 2.66667vw 0vw ;
-  }
-}
-
 .content__title {
   color: #404040;
 }
@@ -1112,4 +1105,16 @@ a:hover {
   .has-table {
     min-height: 100vh;
   }
+}
+
+.welcome {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dddddd;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: right;
+  -webkit-box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+          box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
 }

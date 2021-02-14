@@ -20,113 +20,115 @@
        <div class="sidebar">
            <img src="./dist/images/sidebar.png" alt="">
        </div>
-       <div class="content px-4 py-md-4 is-many">
-            <h2 class="font--alt display-3 font-weight-medium content__title">Welcome, test</h2>
-            <select class="dashboard__select form-select mt-3" aria-label="Default select example">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-            <div class="dashboard__menu d-flex mt-3">
-                <div class="card">
-                    <img src="./dist/images/dash-menu1.png" alt="" class="dashboard__menuImg">
-                    <p>주 5회 60분5일 과정</p>
-                    
-                </div>
-                <div class="card">
-                    <img src="./dist/images/dash-menu2.png" alt="" class="dashboard__menuImg">
-                    <ul>
-                        <li>
-                            <span>시작일</span>   
-                            <span>2021-02-08</span>
-                        </li>
-                        <li>
-                            <span>종료일</span>   
-                            <span>2021-02-12</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="./dist/images/dash-menu3.png" alt="" class="dashboard__menuImg">
-                    <div>
-                        <span>수업시간 </span>   
-                        <span>16:00 - 17:00</span>
+       <div class="content is-many">
+           <div class="welcome">Welcome, test</div>
+            <div class="px-4 py-md-4 mt-sm-4 mt-md-0">
+                <select class="dashboard__select form-select " aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <div class="dashboard__menu d-flex mt-3">
+                    <div class="card">
+                        <img src="./dist/images/dash-menu1.png" alt="" class="dashboard__menuImg">
+                        <p>주 5회 60분5일 과정</p>
+                        
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./dist/images/dash-menu4.png" alt="" class="dashboard__menuImg">
-                    <div>
-                        <span>선생님</span>   
-                        <span>16:khate</span>
+                    <div class="card">
+                        <img src="./dist/images/dash-menu2.png" alt="" class="dashboard__menuImg">
+                        <ul>
+                            <li>
+                                <span>시작일</span>   
+                                <span>2021-02-08</span>
+                            </li>
+                            <li>
+                                <span>종료일</span>   
+                                <span>2021-02-12</span>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                
-                <div class="card">
-                    <div>
-                        <span>교재</span>   
-                        <span>Sample</span>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div>
-                        <span>수업레벨 </span>   
-                        <span>Level 5 Upper beginner</span>
-                    </div>
-                </div>
-            </div>
-            <div class="dashboard__status mt-4">
-                <p class="card__header">학습현황</p>
-                <div >
-                    <div class="card dashboard__statusContainer">
-                        <p class="card__header">
-                            출석현황
-                        </p>
+                    <div class="card">
+                        <img src="./dist/images/dash-menu3.png" alt="" class="dashboard__menuImg">
                         <div>
-                            <ul>
-                                <li>
-                                    <span>총 수업</span>
-                                    <span>회</span>
-                                </li>
-                                <li>
-                                    <span>남은 수업</span>
-                                    <span>회</span>
-                                </li>
-                                <li>
-                                    <span>출석</span>
-                                    <span>회</span>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <span>결석
-                                    </span>
-                                    <span>회</span>
-                                </li>
-                                <li>
-                                    <span>연기</span>
-                                    <span>회</span>
-                                </li>
-                                <li>
-                                    <span>휴강</span>
-                                    <span>회</span>
-                                </li>
-                            </ul>
+                            <span>수업시간 </span>   
+                            <span>16:00 - 17:00</span>
                         </div>
                     </div>
-                    <div class="card dashboard__statusChart">
-                        <p class="card__header">출석율</p>
-                        <div class="d-flex align-items-center dashboard__statusChart--wrapper">
-                            <div class="dashboard__statusChart--container">
-                                <canvas id="attendancerate" width="100" height="100" data-attendance="90" data-total="100"></canvas>
-                                <p id="total">90<span>%</span></p>
+                    <div class="card">
+                        <img src="./dist/images/dash-menu4.png" alt="" class="dashboard__menuImg">
+                        <div>
+                            <span>선생님</span>   
+                            <span>16:khate</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <span>교재</span>   
+                            <span>Sample</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <span>수업레벨 </span>   
+                            <span>Level 5 Upper beginner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard__status mt-4">
+                    <p class="card__header">학습현황</p>
+                    <div >
+                        <div class="card dashboard__statusContainer">
+                            <p class="card__header">
+                                출석현황
+                            </p>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <span>총 수업</span>
+                                        <span>회</span>
+                                    </li>
+                                    <li>
+                                        <span>남은 수업</span>
+                                        <span>회</span>
+                                    </li>
+                                    <li>
+                                        <span>출석</span>
+                                        <span>회</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span>결석
+                                        </span>
+                                        <span>회</span>
+                                    </li>
+                                    <li>
+                                        <span>연기</span>
+                                        <span>회</span>
+                                    </li>
+                                    <li>
+                                        <span>휴강</span>
+                                        <span>회</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="dashboard__statusChart--legend">
-                                <div>
-                                    <span id="datarate"></span>/<span id="datatotal"></span>
+                        </div>
+                        <div class="card dashboard__statusChart">
+                            <p class="card__header">출석율</p>
+                            <div class="d-flex align-items-center dashboard__statusChart--wrapper">
+                                <div class="dashboard__statusChart--container">
+                                    <canvas id="attendancerate" width="100" height="100" data-attendance="90" data-total="100"></canvas>
+                                    <p id="total">90<span>%</span></p>
                                 </div>
-                                <div id="legends" class="chart-legend"></div>
+                                <div class="dashboard__statusChart--legend">
+                                    <div>
+                                        <span id="datarate"></span>/<span id="datatotal"></span>
+                                    </div>
+                                    <div id="legends" class="chart-legend"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
