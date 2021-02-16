@@ -1189,6 +1189,30 @@ a:hover {
   }
 }
 
+@media only screen and (min-device-width: 768px) and (max-width: 1112px) and (orientation: portrait) {
+  .kv__img::after {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .kv__img::after {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .kv__img::after {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .kv__img::after {
+    display: none;
+  }
+}
+
 .kv__card {
   display: -webkit-box;
   display: -ms-flexbox;
